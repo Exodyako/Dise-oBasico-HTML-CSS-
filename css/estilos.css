@@ -1,0 +1,127 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("https://images4.alphacoders.com/161/161586.jpg");
+	background-size: cover;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#ImgArticulo{
+
+	float: left;
+	padding-right: 2%;
+
+}
+
+#ImgArticulo2{
+
+	float: right;
+	padding-left: 1%;
+
+}
+
+header, .main{
+
+	background-image: url("http://wallpaper.pickywallpapers.com/1280x720/videogames-characters-of-2012.jpg");
+	background-size: cover;
+	background-position: buttom center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width:100%;
+	height: 100%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+header nav {
+	background:#000000;
+	overflow: hidden;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #0080FF;
+}
+
+.main .artic {
+	width: 70%;
+	float: left;
+}
+
+.main .artic article {
+	padding: 20px;
+	background:#A9D0F5;
+	margin-bottom: 20px;
+	overflow:hidden;
+}
+
+#ez{
+
+	margin-top: -9.7%;
+	margin-left: 74%;
+	width:25%;
+	height:74%;
+	float:inherit;
+	position: fixed;
+
+}
+
+#ml{
+
+	margin-top: -22%;
+	margin-left: 0.1%;
+	width:14%;
+	height:27%;
+	float:left;
+	position: fixed;
+
+}
+
+#GP{
+
+	margin-top: -19.4%;
+	margin-left: 93.5%;
+	width:5%;
+	height:12%;
+	float:right;
+	position: absolute;
+
+}
+
+footer{
+	background:#000000;
+	color:#fff;
+	clear: both;
+	padding: 10px 0px;
+}
+
+/*Las reglas a insertar son las siguientes*/
+
+/*1. Insertar a la letra reglas tanto para los parrafos y títulos: tipografía, colores, tamaño, estilo, alineación, etc.
+  2. Insertar las reglas que crea convenientes para las imagenes.
+  3. Inserta la regla para que la primera letra del parrafo una letra capital.
+  4. Los enlaces deben tener algunas reglas, por ejemplo tamaño, color, decoración, etc.
+  5. El footer debe tener el mismo ancho que el menú, el texto debe estar centrado y debe tener una familia de fuentes.
+  5. Agregue comentarios para identificar que hace cada grupo de reglas.
+  6. Agregue los ajustes que crea convenientes al código ya creado, ancho, alto, colores, etc.
+
+ NOTA: las reglas que cree, son según su criterio y según vea que se ajustan al tema elegido.
+*/
